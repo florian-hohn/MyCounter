@@ -7,38 +7,40 @@
         android:layout_height="match_parent"
         tools:context=".MainActivity">
     <Button
-            android:text="Button"
+            android:text="-"
             android:layout_width="160dp"
             android:layout_height="60dp" tools:layout_editor_absoluteY="480dp"
-            tools:layout_editor_absoluteX="220dp" android:id="@+id/neg2"/>
+            tools:layout_editor_absoluteX="220dp" android:id="@+id/neg2" android:textSize="40sp"
+            android:textIsSelectable="false" android:textScaleX="1"/>
     <Button
-            android:text="Button"
+            android:text="+"
             android:layout_width="160dp"
             android:layout_height="85dp" tools:layout_editor_absoluteY="369dp"
-            tools:layout_editor_absoluteX="220dp" android:id="@+id/pos2"/>
+            tools:layout_editor_absoluteX="220dp" android:id="@+id/pos2" android:textSize="40sp"
+            android:textIsSelectable="false" android:textScaleX="1"/>
     <Button
-            android:text="Button"
+            android:text="+"
             android:layout_width="160dp"
             android:layout_height="85dp" tools:layout_editor_absoluteY="369dp"
-            tools:layout_editor_absoluteX="33dp" android:id="@+id/pos1"/>
+            tools:layout_editor_absoluteX="33dp" android:id="@+id/pos1" android:textSize="40sp"/>
     <Button
-            android:text="Button"
+            android:text="-"
             android:layout_width="160dp"
             android:layout_height="60dp" tools:layout_editor_absoluteY="480dp"
-            tools:layout_editor_absoluteX="33dp" android:id="@+id/neg1"/>
+            tools:layout_editor_absoluteX="33dp" android:id="@+id/neg1" android:textSize="40sp"/>
     <TextView
             android:text="TextView"
             android:layout_width="160dp"
             android:layout_height="246dp" tools:layout_editor_absoluteY="100dp"
-            tools:layout_editor_absoluteX="220dp" android:id="@+id/textView"/>
+            tools:layout_editor_absoluteX="220dp" android:id="@+id/textView" android:visibility="visible"/>
     <TextView
             android:text="TextView"
             android:layout_width="160dp"
             android:layout_height="246dp" tools:layout_editor_absoluteY="100dp"
-            tools:layout_editor_absoluteX="33dp" android:id="@+id/textView2"/>
+            tools:layout_editor_absoluteX="33dp" android:id="@+id/textView2" android:visibility="visible"/>
     <TextView
             android:text="TextView"
             android:layout_width="345dp"
             android:layout_height="100dp" tools:layout_editor_absoluteY="563dp"
-            tools:layout_editor_absoluteX="35dp" android:id="@+id/textView3"/>
+            tools:layout_editor_absoluteX="35dp" android:id="@+id/textView3" android:visibility="visible"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
